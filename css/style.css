@@ -31,12 +31,14 @@ p {
 .container {
     width: 75%;
     margin: auto;
+   
 }
 
 
 /* test float  */
  .photo-section {
     height: 250px;
+    
     
 }
 
@@ -56,7 +58,7 @@ p {
     height: 90px;
     background-color: black;
     color: white;
-    line-height: 30px;
+    line-height: 26px;
 }
 /* qua non riesco a riempire la row con le foto, mi avanza uno spazio */
 
@@ -79,10 +81,16 @@ img {
 .nome {
     font-size: 18px;
     font-weight: 500;
+    margin-top: 5px;
+}
+.nome, .mail, .ruolo {
+    margin-left: 105px;
 }
 
 .mail {
     color:#46aed5;
+    margin-bottom: 10px;
 }
 
 /* qua non riesco a impostare margini/padding intorno al testo nella carta  */
+/* in qualche modo ce l ho fatta, cambiando line height (barando) perchè la mail non riuscivo ad alzarla dal fondo della card  */
