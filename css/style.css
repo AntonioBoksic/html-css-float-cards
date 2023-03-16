@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: content-box;
+}
+
+
+/* container rules  */
+
+.container {
+    width: 800px;
+    margin: auto;
+    /* test  */
+    background-color: rgb(186, 229, 186);
+    
+}
+
+h1 {
+color: #e53170;
+text-align: center;
+padding: 15px 0px;
+}
+
+p {
+    text-align: center;
+
+}
