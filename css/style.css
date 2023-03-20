@@ -37,25 +37,27 @@ p {
 
 /* test float  */
  .photo-section {
-    height: 250px;
-    
-    
+
 }
 
 .photo-row, .photo-row-2 {
-    height: 50%;
-    
+    padding-bottom: 35px;
 }
 /* DOMANDA come centrare la card all interno della row? */
 
+.photo-row::after, .photo-row-2::after{
+    content:"";
+    display: table;
+    clear: both;
+}
 .photo-row-2 {
    
 }
 
 .card {
-    display: inline-block;
-    width: 32%;
-    height: 90px;
+
+    width: calc(100% / 3 - 10px);
+    float: left;
     background-color: black;
     color: white;
     line-height: 26px;
@@ -72,7 +74,7 @@ p {
 img {
     display: inline-block;
     float: left;
-    width: 90px;
+    width: 93px;
 }
 
 /* interno carta  */
